@@ -1,0 +1,194 @@
+.html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Inicioo */
+
+.contenedor_inicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0.1fr 0.5fr 0.001fr ;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer"
+    ;
+    width: 100%;
+
+}
+.header{
+    grid-area: header ;
+    width: 100%;
+}
+
+.main{
+    grid-area: main;
+    width: 100%;
+}
+.menuPrincipal ul{
+    color: rgb(254, 254, 254); 
+    list-style-type: none;
+    font-size: 15px;
+    text-align: right;
+    background-color: #fefefe/* 144668 */;
+    font-family: 'Exo', sans-serif;
+    text-decoration: none;
+    margin: 20px 20px;
+    padding: 20px;
+}
+.menuPrincipal ul li{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 0px;
+    margin: 5px 5px;
+
+}
+.menuPrincipal li a{
+    text-decoration: none;
+    line-height: 0px;
+    
+}
+
+.menuPrincipal img{
+    width: 300px;
+    height: 150px;
+    margin-left: 500px;
+}
+
+
+.titulo2{
+    color: #050505  ;
+
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Exo', sans-serif;
+    position: relative;
+    bottom: 600px; 
+    left: 10px;
+    display: inline-block;
+    
+}
+.titulo2{
+    margin-left: 50px;
+
+}
+
+
+
+
+.subtitulo{
+    color: #050505  ;
+    
+    text-align: left;
+    font-family: 'Exo', sans-serif;
+    margin-left: 50px;
+    padding-bottom: 15px;
+    
+
+}
+
+.parrafo1{
+    color: #050505  ;
+    text-align: justify;
+    font-size: 1.1rem;
+    font-family: 'Exo', sans-serif;
+
+}
+.parrafo1{
+    margin-left: 50px; 
+    display: inline-block;
+    padding: 3%;
+    height: 2%;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    bottom: 400p;
+}
+/* .parrafo2{
+    color: #050505  ;
+    text-align: justify;
+    font-size: 1.1rem;
+    font-family: 'Exo', sans-serif;
+} */
+
+
+.vista img{
+    width: 200%;
+    height: 40%;
+    position: relative;
+    bottom: 18px;
+    font-size: 100%;
+    
+}
+
+
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+.arrieros{
+    color: black;
+    font-family: 'Exo', sans-serif;
+    margin-left: 50px;
+    padding: 1%;
+
+}
+.video1 iframe{
+    margin-left: 50px;
+    padding: 2%;
+}
+
+.pie{
+    background-color:#fefefe ;
+    grid-area: footer;
+}
+.pienav ul{
+    font-family: 'Exo', sans-serif;
+    list-style-type: none;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.pienav ul li{ 
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.pienav li a{
+    text-decoration: none;
+}
+
+/* galeria */
+.videos{
+    color: #050505;
+    background-color: #fefefe;
+    text-align: justify;
+    font-size: 1,1rem;
+    font-family: 'Exo', sans-serif;
+}
+
+.fotos img{
+    width: 300px;
+    height: 300px;
+}
+.galeria{
+    font-family: 'Exo', sans-serif;
+}
+
+
+/* servicios */
+
+main{
+    background-color: #fefefe;
+}
+
+.servicios div h2{
+    font-size: 60px;
+
+}
+.comidas{
+    list-style-type: none;
+}
