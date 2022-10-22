@@ -5,30 +5,72 @@
         <meta http-equiv="X-UA-Compatible">
         <meta name="viewport" content="IE-edge">
         <title></title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
         <link rel="stylesheet" href="../CSS/estilos.css">
         <link rel="shortcut icon" href="../favicon/laguna brava.ico" type="image/x-icon">
     </head>
-    <body>
-        <header>
-            <nav class="menuPrincipal">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li>Lugares</li>
-                    <li><a href="contactos.html">Contanto</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="serviciosturisticos.html">Servios Turisticos</a></li>
-                </ul>
-            </nav>
+    <body class="container-fluid">
+        <header class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light menuPrincipal">
+                <div class="container-fluid conteinerr">
+                
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse  menuPrincipal" id="navbarNav">
+                    <ul class="navbar-nav col-12 menuPrincipal">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Lugares</a>
+                      </li>
+                      <li class="nav-item link">
+                        <a class="nav-link" href="../paginas/contactos.html">Contactos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="../paginas/galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../paginas/serviciosturisticos.html">Servicios Turisticos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            
         </header>
-        <main>
-            <section>
-                <h1 class="parrafo1">Conoce Refugio El Peñon</h1>
-                <img src="../favicon/el peñon.jpg" alt="Refugio">
-                <img src="../favicon/refugio el peñon.jpg" alt="Refugio">
-            </section>
+        <main class="row columnas mainL ">
+                <h1 class="rpeñon col-12">Conoce Refugio El Peñon</h1>
+                <p class=" historiap col-8">Según reza el cartel introductorio, está alli desde el año 1873 por orden del entonces presidente de la república Domingo Faustino Sarmiento, quién decidió construir una serie de refugios para los arrieros que llevaban su ganado hacia o desde Chile a través del Camino de los Toros</p>
+
+
+                <div class="row imagenesP">
+                <img class="col-4"  src="../favicon/el peñon.jpg" alt="Refugio">
+                <img class="col-4" src="../favicon/refugio el peñon.jpg" alt="Refugio">
+                </div>
+                
+                <div class="row cuesta">
+                    <h1 class="troya col-12">Quebrada la troya</h1>
+                    <p class="historiat col-8">La Quebrada de la troya se encuentra a pocos kilometros de Vinchina en la Provincia de la Rioja. Esta Quebrada esta formada por el río Vinchina (río la Troya), ahora llamado río bermejo. Este sitio tiene un tipo de formaciones muy peculiares, sus montañas estan inclinadas en una dirección de 0este a este. Cuenta con un camino de corniza de unos 10km donde se pueden ver multiples paisajes.</p>
+                    <div class="imgT">
+                    <img class="col-4" src="../imagenes/servicios/latroya.jpg" alt="troya">
+                    <img class="col-4" src="../imagenes/servicios/troya.jpg" alt="troya">
+                    </div>
+                </div>
+                <div class="row yeso">
+                    <h1 class="quebrada col-12">Quebrada el yeso</h1>
+                    <p class="historiaY col-8">Quebrada del Yeso ubicado en Vinchina, provincia de La Rioja. A este lugar se accede desde El Condado, en las afueras de Villa Castelli, a unos 30 kilómetros de Vinchina.Según el relato de sus pobladores, este era el viejo camino que se utilizaba para llevar el ganado vacuno a Chile. Se trata de un acceso más impactante que permite llegar a la alta cordillera riojana y es un trayecto mucho más corto que el camino internacional por la Quebrada de la Troya que conduce al país vecino.</p>
+                    <div class="imgY">
+                    <img class="col-4" src="../imagenes/servicios/yeso.jpg" alt="quebrada">
+                    <img class="col-4" src="../imagenes/servicios/elyeso.jpg" alt="quebrada">
+                    </div>
+                </div>
+                </section>
         </main>
-        <footer>
-            <nav>
+        <footer class="row ">
+            <nav class="footerlugares">
                 <ul>
                 <li><a href="../index.html">Inicio</a></li>
                     <li>Lugares</li>
@@ -38,5 +80,9 @@
                 </ul>
             </nav>
         </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

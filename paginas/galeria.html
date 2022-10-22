@@ -8,13 +8,41 @@
         <meta http-equiv="X-UA-Compatible">
         <meta name="viewport" content="IE-edge">
         <title></title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../CSS/estilos.css">
         <link rel="shortcut icon" href="../favicon/laguna brava.ico" type="image/x-icon">
 
     </head>
     <body>
         <header>
-            <nav class="menuPrincipal">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light menuPrincipal">
+                <div class="container-fluid conteiner">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  menuPrincipal" id="navbarNav">
+                    <ul class="navbar-nav col-12 menuPrincipal">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link" href="../paginas/contactos.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../paginas/lugares.html">Lugares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/serviciosturisticos.html">Servicios Turisticos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <!-- <nav class="menuPrincipal">
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="lugares.html">Lugares</a></li>
@@ -22,44 +50,61 @@
                     <li>Galeria</li>
                     <li><a href="serviciosturisticos.html">Servicios Turisticos</a></li>
                 </ul>
-            </nav>
+            </nav> -->
         </header>
-        <main>
-            <section class="galeria">
-                <h1>Galeria</h1>
-                <div class="fotos">
-                <img src="../imagenes/galeria/imagen1.jpeg" alt="laguna">
-                <img src="../imagenes/galeria/imagen2.jpeg" alt="cerros">
-                <img src="../imagenes/galeria/imagen3.jpeg" alt="vicunas">
-                <img src="../imagenes/galeria/imagen4.jpeg" alt="cerros">
-                <img src="../imagenes/galeria/imagen5.jpeg" alt="cerros">
-                <img src="../imagenes/galeria/imagen6.jpeg" alt="camino">
-                <img src="../imagenes/galeria/imagen7.jpeg" alt="laguna">
-                <img src="../imagenes/galeria/imagen8.jpeg" alt="laguna">
-                <img src="../imagenes/galeria/imagen9.webp" alt="laguna">
-                <img src="../imagenes/galeria/lagunaparrafo.png" alt="laguna">
-                <img src="../imagenes/galeria/flamengos.jpg" alt="flamengos">
-                <img src="../imagenes/galeria/imagen9.webp" alt="paisaje">
-                <img src="../imagenes/galeria/306206779_597211288569730_7621032883810992223_n.jpg" alt="zorro">
-                <img src="../imagenes/galeria/imagen10.webp" alt="paisaje">
-                <img src="../imagenes/galeria/imagen11.jpg" alt="paisaje">
-                <img src="../imagenes/galeria/imagen12.jpg" alt="paisaje">
-                <img src="../imagenes/galeria/imagen13.jpg" alt="paisaje">
-                <img src="../imagenes/galeria/imagen14.jpg" alt="paisaje">
-                <img src="../imagenes/galeria/imagen15.jpg" alt="paisaje">
-                <img src="../imagenes/galeria/imagen17.jpg" alt="paisaje">
+        <main class="maing">
+            <section  class=" galeria conteiner">
+                <div class="tituloG">
+                    <h1>Galeria</h1>
+                </div>
+                <div class="row">
+                <div class="col-4">
+                    <img src="../imagenes/galeria/flamengos.jpg" alt="flamengos">
+                </div>
+                <div class="col-4">
+                    <img src="../imagenes/galeria/imagen9.webp" alt="flamengos">
+                </div>
+                <div class="col-4">
+                    <img src="../imagenes/galeria/imagen12.jpg" alt="flamengos">
+                </div>
+                <div class="col-4">
+                    <img src="../imagenes/galeria/imagen13.jpg" alt="flamengos">
+                </div>
+                <div class="col-4">
+                    <img src="../imagenes/galeria/imagen11.jpg" alt="flamengos">
+                </div>
+                <div class="col-4">
+                    <img src="../imagenes/galeria/imagen1.jpeg" alt="flamengos">
+                </div>
+                <div class="col-4">
+                    <img src="../imagenes/galeria/imagen10.webp" alt="flamengos">
+                </div>
+                <div class="col-4">
+                    <img src="../imagenes/galeria/imagen8.jpeg" alt="flamengos">
+                </div>
+                <div class="col-4">
+                    <img src="../imagenes/galeria/imagen5.jpeg" alt="flamengos">
+                </div>
+                <div class="col-4">
+                    <img src="../imagenes/galeria/imagen17.jpg" alt="flamengos">
+                </div>
             </div>
-            
-            </section>
-            <section>
-                <h1 class="videos">Videos</h1>
+                <div class=" galeria row">
+                <h1 class="">Videos</h1>
+                <div class="col-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/BS_9LYJ0_Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div> 
+                <div class="col-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/MoDgMDq6oqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/t_5_86N9h2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                </div>
+            </div>
+            </section>
             </main>
-        <footer>
-            <nav>
+        <footer class="row">
+            <nav class="footerlugares">
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="lugares.html">Lugares</a></li>
@@ -70,5 +115,6 @@
                 </ul>
             </nav>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

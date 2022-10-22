@@ -5,56 +5,105 @@
         <meta http-equiv="X-UA-Compatible">
         <meta name="viewport" content="IE-edge">
         <title></title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
         <link rel="stylesheet" href="../CSS/estilos.css">
         <link rel="shortcut icon" href="../favicon/laguna brava.ico" type="image/x-icon">
     </head>
-    <body clas>
-        <header>
-            <nav class="menuPrincipal">
-                <ul>
+    <body class="container-fluid conteiner">
+        <header class=" headerS row ">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light menuPrincipal">
+                <div class="container-fluid conteinerr">
+                
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse  menuPrincipal" id="navbarNav">
+                    <ul class="navbar-nav col-12 menuPrincipal">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Servicios Turisticos</a>
+                      </li>
+                      <li class="nav-item link">
+                        <a class="nav-link" href="../paginas/contactos.html">Contactos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="../paginas/galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../paginas/lugares.html">Lugares</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <!-- <nav class="menuPrincipal row col-12">
+                <ul class="col-12">
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="lugares.html">Lugares</a></li>
                     <li><a href="contactos.html">Contactos</a></li>
                     <li><a href="galeria.html">Galeria</a></li>
                     <li>Servicios turisticos</li>
                 </ul>
-            </nav>
+            </nav> -->
         </header>
-        <main>
-            <section>
-                <h1 class="servicios">Conoce todos los servicios que te podemos ofrecer</h1>
-                <div><h2>Comidas tipicas del lugares</h2>
-                    <ul class="comidas">
-                        <li>Pastelitos<p>Se trata de una masa crocante de hojaldre, rellena de dulce de batata o dulce de membbrillo, a elección de cada gusto personal, pero los más tradicionales son los de dulce de membrillo.</p><img src="../imagenes/pastelitos.jpg" alt="pastelitos"></li>
-                        <li>Empanadas<p>Un plato típico de Argentina. Es “una fina masa de pan, masa quebrada u hojaldre rellena con una preparación salada o dulce y cocida al horno o frita”</p><img src="../imagenes/empanadas.jpg" alt="empanadas"></li>
-                        <li>Cordero<p>El cordero asado es una preparación de la carne de cordero en forma de asado que se contempla como muy popular en diversos países y culturas</p><img src="../imagenes/cordero.jpg" alt="cordero"></li>
-                        <li>Locro<p>El locro​ es una especie de guiso de origen prehispánico y preincaico, típico de varios pueblos andinos, a base de zapallo, maíz ─especialmente blanco─ y papas, originario del área de la cordillera de los Andes, en Argentina, Perú, Chile, Ecuador, Bolivia, Paraguay​ y el suroccidente colombiano</p><img src="../imagenes/locro.jpg" alt="locro"></li>
-                        <li>Mazamorra con leche<p>La mazamorra es un postre típico en Argentina y en otro países de Latinoamérica. Este alimento es de origen indígena y está elaborado a base de maíz blanco, agua, azúcar y vainilla.</p><img src="../imagenes/mazamorra.jpg" alt="postre"></li>
-                    </ul>
-                </div>
-                <div>
-                    <h1>Hospedaje</h1>
-                    <img src="../imagenes/hospedaje/WhatsApp Image 2022-09-16 at 22.00.58.jpeg" alt="piezas">
-                    <img src="../imagenes/hospedaje/WhatsApp Image 2022-09-16 at 22.01.17.jpeg" alt="piezas">
-                    <img src="../imagenes/hospedaje/WhatsApp Image 2022-09-16 at 22.01.38.jpeg" alt="piezas">
-                    <img src="../imagenes/hospedaje/WhatsApp Image 2022-09-16 at 22.01.58.jpeg" alt="piezas">
-                </div>
-                <div>
-                    <h1>Conoce otros lugares turisticos que podes visitar</h1>
-                    <h2>Quebrada la troya</h2>
-                    <p>La Quebrada de la troya se encuentra a pocos kilometros de Vinchina en la Provincia de la Rioja. Esta Quebrada esta formada por el río Vinchina (río la Troya), ahora llamado río bermejo. Este sitio tiene un tipo de formaciones muy peculiares, sus montañas estan inclinadas en una dirección de 0este a este. Cuenta con un camino de corniza de unos 10km donde se pueden ver multiples paisajes.</p>
-                    <img src="../imagenes/latroya.jpg" alt="troya">
-                    <img src="../imagenes/troya.jpg" alt="troya">
-                    <h2>Quebrada el yeso</h2>
-                    <p>Quebrada del Yeso ubicado en Vinchina, provincia de La Rioja. A este lugar se accede desde El Condado, en las afueras de Villa Castelli, a unos 30 kilómetros de Vinchina.Según el relato de sus pobladores, este era el viejo camino que se utilizaba para llevar el ganado vacuno a Chile. Se trata de un acceso más impactante que permite llegar a la alta cordillera riojana y es un trayecto mucho más corto que el camino internacional por la Quebrada de la Troya que conduce al país vecino.</p>
-                    <img src="../imagenes/yeso.jpg" alt="quebrada">
-                    <img src="../imagenes/elyeso.jpg" alt="quebrada">
+        <main class="row mainS">
+            <section class="row">
+                <h1 class="servicios col-12">Conoce todos los servicios que te podemos ofrecer</h1>
+            </section> 
+            <div class=" row comidas">
+                <h1>Comidas tipicas del lugar</h1>
+            </div>
 
-
+            <div class="card-group card ">
+                <div class="card pastelitos">
+                <img src="../imagenes/servicios/pastelitos-de-membrillo-sin-tacc-1024x683.webp" class="card-img-top" alt="pastelitos">
+                <div class="card-body">
+                    <h5 class="card-title pasteles">Pastelitos</h5>
+                    <p class="card-text historiaPast">Se trata de una masa crocante de hojaldre, rellena de dulce de batata o dulce de membbrillo, a elección de cada gusto personal, pero los más tradicionales son los de dulce de membrillo</p>
                 </div>
-            </section>
+                </div>
+                <div class="card empanadas">
+                <img src="../imagenes/servicios/empanadas.jpg" class="card-img-top empanadas" alt="pastelitos">
+                <div class="card-body">
+                    <h5 class="card-title pasteles">Empanadas</h5>
+                    <p class="card-text historiaPast">Un plato típico de Argentina. Es “una fina masa de pan, masa quebrada u hojaldre rellena con una preparación salada o dulce y cocida al horno o frita.</p>
+                </div>
+                </div>
+                <div class="card cordero">
+                <img src="../imagenes/servicios/cordero-a-la-estaca-e1554771100481-600x396.jpg" class="card-img-top" alt="cordero">
+                <div class="card-body">
+                    <h5 class="card-title pasteles">Cordero</h5>
+                    <p class="card-text historiaPast">El cordero asado es una preparación de la carne de cordero en forma de asado que se contempla como muy popular en diversos países y culturas.</p>
+                </div>
+                </div>
+            </div>
+                    
+                    
+                </div>
+                <div class="row hospedaje">
+                    <h1 class="comidas col-12">Hospedaje</h1>
+                
+                    <div id="carouselExampleSlidesOnly" class="carousel slide col-3" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="../imagenes/hospedaje/WhatsApp Image 2022-09-16 at 22.00.58.jpeg" class="d-block w-100" alt="hospedaje">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../imagenes/hospedaje/WhatsApp Image 2022-09-16 at 22.01.17.jpeg" class="d-block w-100" alt="hospedaje">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../imagenes/hospedaje/WhatsApp Image 2022-09-16 at 22.01.38.jpeg" class="d-block w-100" alt="hospedaje">
+                        </div>
+                      </div>
+                    </div>
+                
+            
         </main>
-        <footer>
+        <footer class="row footerS">
             <nav>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
@@ -63,7 +112,8 @@
                     <li><a href="galeria.html">Galeria</a></li>
                     <li>Servicios turisticos</li>
                 </ul>
-            </nav>x
+            </nav>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
