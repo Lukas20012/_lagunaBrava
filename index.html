@@ -8,21 +8,46 @@
         <meta http-equiv="X-UA-Compatible">
         <meta name="viewport" content="IE-edge">
         <title>Laguna brava</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="shortcut icon" href="favicon/laguna brava.ico" type="image/x-icon">
         <link rel="stylesheet" href="CSS/estilos.css">
     </head>
     <body>
         <div class="contenedor_inicio">
 
-
-        <header class="header" id="inicio">
-
             
-            <nav class="menuPrincipal">
-                <!-- <div class="logo">
-                    <img src="imagenes/logo.png" alt="logo">
-                    </div> -->
-
+        <header class="header" id="inicio">
+            <!-- <div class="logo">
+                <img src="imagenes/servicios/logo.png" alt="logo">
+                </div> -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light menuPrincipal">
+                    <div class="container-fluid conteiner">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  menuPrincipal" id="navbarNav">
+                        <ul class="navbar-nav col-12 menuPrincipal">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item link">
+                            <a class="nav-link" href="paginas/contactos.html">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="paginas/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="paginas/lugares.html">Lugares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="paginas/serviciosturisticos.html">Servicios Turisticos</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            <!-- <nav class="menuPrincipal">
                 <ul>
                     <li>Inicio</li>
                     <li><a href="paginas/lugares.html">Lugares</a></li>
@@ -31,33 +56,35 @@
                     <li><a href="paginas/serviciosturisticos.html">Servicios Turisticos</a></li>
                 </ul>
 
-            </nav>
+            </nav> -->
 
 
         </header>
-
+        
         <main class="vista">
             <img src="imagenes/galeria/imagen17.jpg" alt="laguna-brava">
-            
-            
-
-        <section class="historia">
+        
+            <div class="main_contenedor">
             <h2 class="subtitulo">Conoce toda su historia</h2>
+            <div class="parrafo1">
+            <p>Laguna Brava es una reserva natural creada en 1980 para preservar las comunidades de vicuñas y guanacos que estaban al borde de la desaparición. La reserva tiene una extensión de cuatro mil cincuenta kilómetros y abarca además una serie de lagunas menores, formadas de manera temporal como consecuencia de los deshielos.</p>
+        </div>
+
+        <div class="imagen_p1">
+            <!-- <img src="imagenes/galeria/imagen1.jpeg" alt="laguna"> -->
+            <img src="imagenes/galeria/flamengos.jpg" alt="flamengos">
+        </div>
+        <div class="arrieros">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit itaque optio voluptatibus consequuntur id quia dolores commodi, consequatur a alias, nihil iste, sapiente natus? Deserunt voluptas laboriosam quisquam fugit autem.</p>
+        </div>
 
 
-            <p class="parrafo1">Laguna Brava es una reserva natural creada en 1980 para preservar las comunidades de vicuñas y guanacos que estaban al borde de la desaparición. La reserva tiene una extensión de cuatro mil cincuenta kilómetros y abarca además una serie de lagunas menores, formadas de manera temporal como consecuencia de los deshielos.</p>
-        </section>
-
-        <section class="video1">
-            <iframe  width="560" height="315" src="https://www.youtube.com/embed/t_5_86N9h2Q?start=76" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-
-            <div class="arrieros">
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit itaque optio voluptatibus consequuntur id quia dolores commodi, consequatur a alias, nihil iste, sapiente natus? Deserunt voluptas laboriosam quisquam fugit autem.</p>
-            </div>
-
-            <iframe class="iframe2" width="560" height="315" src="https://www.youtube.com/embed/uy9k-UT9U8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <section class="iframe2">
+                <iframe  width="560" height="315" src="https://www.youtube.com/embed/t_5_86N9h2Q?start=76" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+<!--             <iframe  width="560" height="315" src="https://www.youtube.com/embed/t_5_86N9h2Q?start=76" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ -->      
+        </div>
         </main>
 
         <footer class="pie">
@@ -71,15 +98,13 @@
                     <li><a href="paginas/galeria.html">Galeria</a></li>
                     <li><a href="paginas/serviciosturisticos.html">Servicios Turisticos</a></li>
                 </ul>
-
-                <div>
-                    Todos los derechos son reservados
-                </div>
-                <div>
-                    Conoce todas nuestras redes sociales
-                </div>
             </nav>
+            <div class="footer">
+                <p>Todos los derechos son reservados</p> 
+                <p>Conoce todas nuestras redes sociales</p> 
+                </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
