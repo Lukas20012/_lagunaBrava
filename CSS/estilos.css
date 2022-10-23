@@ -10,7 +10,7 @@
 .contenedor_inicio{
     display: grid;
     grid-template-columns: 1fr  ;
-    grid-template-rows: 0.01fr autofr 0.1fr;
+    grid-template-rows: 0.01fr  2fr;
     grid-template-areas: 
     "header header"
     "main main"
@@ -207,9 +207,7 @@
 .bodyL{
     height: 100vh;
 }
-.conteine-fluid{
-    height: 100vh;
-}
+
 .mainL{
     background-color: rgb(83, 113, 182);
 }
@@ -245,6 +243,10 @@
         align-items: center;
         margin-bottom: 15px;
     }
+    .imagenesP img:hover{
+        border:5px solid #144668;
+    }
+    
     
     .troya{
         text-align: center;
@@ -252,6 +254,7 @@
         font-family: 'Exo', sans-serif;
         font-size: 35px;
     }
+    
     .historiat{
         text-align: center;
         color: #050505  ;
@@ -263,6 +266,9 @@
         flex-direction: row;
         text-align: center;
         justify-content: center;
+    }
+    .cuesta img:hover{
+        border: solid 5px #144668;
     }
     .imgT{
         display: flex;
@@ -290,6 +296,9 @@
         flex-direction: row;
         justify-content: center;
         text-align: center;
+    }
+    .yeso img:hover{
+        border: solid 5px #144668;
     }
     .imgY{
         display: flex;
