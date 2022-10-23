@@ -112,7 +112,7 @@
 
 
 .parrafo1{
-    color: #fefefe  ;
+    color: #050505  ;
     text-align: justify;
     font-size: 1.1rem;
     font-family: 'Exo', sans-serif;
@@ -303,6 +303,9 @@
     justify-content: center;
     align-items: center;
 } */
+.footerlugares{
+    padding: 0px;
+}
 
 .footerlugares ul{
     color: black; 
@@ -326,6 +329,9 @@
     padding: 5px;
 }
 /* seccion contactos */
+.mainC section{
+    background-color: #144668;
+}
 .contactfooter ul{
     color: black; 
     list-style-type: none;
@@ -346,13 +352,24 @@
     color: #fefefe;
     padding: 5px;
 }
+.contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.formcontac{
+    background-color: #144668;
+}
+.mb-2{ color: #fefefe;}
 
+.mb-2 button{
+    color: #fefefe;}
 
-
-
-
-
+.mb-3 h4{
+    color: #fefefe;
+}
 
 /* galeria */
 .navbar>.container-fluid{
@@ -415,10 +432,13 @@
 .card{
     padding: 0px;
 }
-/
+
 .conteinerr{
     padding: 0px;
-    background-color:rgb(83, 113, 182) ;
+    background-color:#144668;
+}
+.container-fluid{
+    padding: 0px;
 }
 
 .servicios{
