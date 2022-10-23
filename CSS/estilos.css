@@ -85,6 +85,9 @@
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     color: #fefefe;
 }
+.navbar>.container-fluid{
+    background-color: #144668;
+}
 
 .vista{
     display: flex;
@@ -201,6 +204,12 @@
 }
 
 /* seccion lugares */
+.bodyL{
+    height: 100vh;
+}
+.conteine-fluid{
+    height: 100vh;
+}
 .mainL{
     background-color: rgb(83, 113, 182);
 }
@@ -223,6 +232,7 @@
 
     .columnas{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -329,8 +339,13 @@
     padding: 5px;
 }
 /* seccion contactos */
+.mainC{
+    height: 100vh;
+}
+
 .mainC section{
     background-color: #144668;
+    height: 100vh;
 }
 .contactfooter ul{
     color: black; 
@@ -345,12 +360,17 @@
     justify-content: center;
     align-items: center;
     height: 40px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .contactfooter li a{ 
     text-decoration: none;
     color: #fefefe;
     padding: 5px;
+}
+.form{
+    height: 100%;
 }
 .contactos{
     display: flex;
