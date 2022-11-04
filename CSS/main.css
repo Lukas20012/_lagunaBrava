@@ -28,6 +28,7 @@
 .header {
   background-color: #144668;
   grid-area: header;
+  width: 100%;
 }
 
 .main {
@@ -37,6 +38,7 @@
 
 .menuPrincipal {
   padding: 0px;
+  width: 100%;
 }
 .menuPrincipal ul {
   color: black;
@@ -186,11 +188,13 @@
 
 /* seccion lugares */
 .bodyL {
-  height: 100vh;
+  overflow: none;
+  width: 100%;
 }
 
 .mainL {
   background-color: rgb(83, 113, 182);
+  width: 100%;
 }
 
 .rpeñon {
@@ -199,6 +203,7 @@
   font-family: "Exo", sans-serif;
   font-size: 35px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -217,18 +222,25 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .imagenesP {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
+  width: 100%;
+  height: 200px;
 }
-
 .imagenesP img:hover {
   border: 5px solid #144668;
+}
+
+.fotopenon {
+  height: 210px;
 }
 
 .troya {
@@ -236,6 +248,7 @@
   color: #050505;
   font-family: "Exo", sans-serif;
   font-size: 35px;
+  width: 100%;
 }
 
 .historiat {
@@ -248,10 +261,11 @@
 .cuesta {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  width: 100%;
 }
-
 .cuesta img:hover {
   border: solid 5px #144668;
 }
@@ -259,10 +273,11 @@
 .imgT {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  width: 100%;
 }
-
 .imgT img {
   padding: 10px;
 }
@@ -272,6 +287,7 @@
   color: #050505;
   font-family: "Exo", sans-serif;
   font-size: 35px;
+  width: 100%;
 }
 
 .historiaY {
@@ -284,10 +300,11 @@
 .yeso {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  width: 100%;
 }
-
 .yeso img:hover {
   border: solid 5px #144668;
 }
@@ -295,16 +312,18 @@
 .imgY {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  width: 100%;
 }
-
 .imgY img {
   padding: 10px;
 }
 
 .footerlugares {
   padding: 0px;
+  width: 100%;
 }
 
 .footerlugares ul {
@@ -317,6 +336,7 @@
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 40px;

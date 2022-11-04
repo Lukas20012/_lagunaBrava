@@ -36,6 +36,7 @@
 .header{
     background-color: #144668;
     grid-area: header ;
+    width: 100%;
 } 
 .main{
     grid-area: main;
@@ -43,6 +44,7 @@
 }
 .menuPrincipal{
     padding: 0px;
+    width: 100%;
 
 ul{
     color: black; 
@@ -86,9 +88,7 @@ ul{
     display: flex;
     flex-direction: column;
     background-color: #144668;
-
-
-img{
+    img{
     width: 100%;
     height: 50%;
     position: relative;
@@ -201,12 +201,14 @@ a{
 
 /* seccion lugares */
 .bodyL{
-    height: 100vh;
+    overflow: none;
+    width: 100%;
+    
 }
 
 .mainL{
     background-color: rgb(83, 113, 182);
-
+    width: 100%;
 }
 .rpeñon{
     color: #050505  ;
@@ -214,16 +216,20 @@ a{
     font-family: 'Exo', sans-serif;
     font-size: 35px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 
 .historiap{
     color: #050505  ;
     text-align: center;
     font-family: 'Exo', sans-serif;
-    font-size: 20px;}
+    font-size: 20px;
+    
+}
 
     .columnas{
         display: flex;
@@ -231,25 +237,33 @@ a{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .imagenesP{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         margin-bottom: 15px;
-    }
-    .imagenesP img:hover{
+        width: 100%;
+        height: 200px;
+    
+        img:hover{
         border:5px solid #144668;
     }
-    
+    }
+    .fotopenon{
+        height: 210px;
+    }
     
     .troya{
         text-align: center;
         color: #050505  ;
         font-family: 'Exo', sans-serif;
         font-size: 35px;
+        width: 100%;
     }
     
     .historiat{
@@ -257,58 +271,74 @@ a{
         color: #050505  ;
         font-family: 'Exo', sans-serif;
         font-size: 20px;
+        
     }
     .cuesta{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         text-align: center;
         justify-content: center;
-    }
-    .cuesta img:hover{
+        width: 100%;
+    
+        img:hover{
         border: solid 5px #144668;
+    }
     }
     .imgT{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         text-align: center;
         justify-content: center;
-    }
-    .imgT img{
+        width: 100%;
+    
+        img{
         padding: 10px;
+    }
     }
     .quebrada{
         text-align: center;
         color: #050505  ;
         font-family: 'Exo', sans-serif;
         font-size: 35px;
+        width: 100%;
     }
     .historiaY{
         text-align: center;
         color: #050505  ;
         font-family: 'Exo', sans-serif;
         font-size: 20px;
+        
     }
     .yeso{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         text-align: center;
-    }
-    .yeso img:hover{
+        width: 100%;
+    
+        img:hover{
         border: solid 5px #144668;
+    }
     }
     .imgY{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         text-align: center;
         justify-content: center;
-    }
-    .imgY img{
+        width: 100%;
+    
+        img{
         padding: 10px;
+    }
     }
 
 .footerlugares{
     padding: 0px;
+    width: 100%;
 }
 
 .footerlugares ul{
@@ -321,6 +351,7 @@ a{
     text-decoration: none;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 40px;
