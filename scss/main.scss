@@ -117,24 +117,22 @@ ul{
     text-align: center;
     display: flex;
     justify-content: center;
-
     p{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 20px;
-}
+    }
 }
 .imagen_p1{
     display: flex;
     justify-content: center;
     grid-area: imagen1;
-
-img{
+    img{
     width: 538px;
     height: 315px;
     align-content: space-between;
-}
+    }
 }
 
 
@@ -143,7 +141,6 @@ img{
     font-family: 'Exo', sans-serif;
     display: flex;
     justify-content: center;
-
     p{
     color: #fefefe  ;
     text-align: center;
@@ -176,16 +173,14 @@ img{
     text-align: center;
     display: flex;
     justify-content: center;
-
-li{ 
+    li{ 
     text-decoration: none;
     padding: 5px;
-
-a{
+    a{
     text-decoration: none;
     color: #fefefe;
-}
     }
+        } 
         }
             }
 .footer{
@@ -193,7 +188,6 @@ a{
     color: #fefefe;
     display: flex;
     flex-direction: column;
-
     p{
     display: flex;
     }
@@ -249,10 +243,9 @@ a{
         margin-bottom: 15px;
         width: 100%;
         height: 200px;
-    
         img:hover{
         border:5px solid #144668;
-    }
+        }
     }
     .fotopenon{
         height: 210px;
@@ -280,10 +273,9 @@ a{
         text-align: center;
         justify-content: center;
         width: 100%;
-    
         img:hover{
         border: solid 5px #144668;
-    }
+        }
     }
     .imgT{
         display: flex;
@@ -292,10 +284,9 @@ a{
         text-align: center;
         justify-content: center;
         width: 100%;
-    
         img{
         padding: 10px;
-    }
+        }
     }
     .quebrada{
         text-align: center;
@@ -318,10 +309,9 @@ a{
         justify-content: center;
         text-align: center;
         width: 100%;
-    
         img:hover{
         border: solid 5px #144668;
-    }
+        }
     }
     .imgY{
         display: flex;
@@ -330,10 +320,9 @@ a{
         text-align: center;
         justify-content: center;
         width: 100%;
-    
         img{
         padding: 10px;
-    }
+        }
     }
 
 .footerlugares{
