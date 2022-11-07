@@ -25,6 +25,10 @@
   width: 100%;
 }
 
+.bodyI {
+  background-color: rgb(83, 113, 182);
+}
+
 .header {
   background-color: #144668;
   grid-area: header;
@@ -46,7 +50,6 @@
   font-size: 15px;
   text-align: right;
   background-color: #144668;
-  font-family: "Exo", sans-serif;
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -82,7 +85,7 @@
 .vista {
   display: flex;
   flex-direction: column;
-  background-color: #144668;
+  background-color: rgb(83, 113, 182);
 }
 .vista img {
   width: 100%;
@@ -95,7 +98,6 @@
   color: #fefefe;
   display: flex;
   text-align: left;
-  font-family: "Exo", sans-serif;
   justify-content: center;
   align-items: center;
   font-size: 35px;
@@ -107,7 +109,6 @@
   color: #050505;
   text-align: justify;
   font-size: 1.1rem;
-  font-family: "Exo", sans-serif;
   grid-area: historia;
   text-align: center;
   display: flex;
@@ -133,7 +134,6 @@
 
 .arrieros {
   color: #fefefe;
-  font-family: "Exo", sans-serif;
   display: flex;
   justify-content: center;
 }
@@ -141,7 +141,6 @@
   color: #fefefe;
   text-align: center;
   font-size: 1.1rem;
-  font-family: "Exo", sans-serif;
   display: flex;
   align-items: center;
   grid-area: arrieros;
@@ -161,7 +160,6 @@
 }
 
 .pienav ul {
-  font-family: "Exo", sans-serif;
   list-style-type: none;
   font-size: 15px;
   text-align: center;
@@ -178,7 +176,6 @@
 }
 
 .footer {
-  font-family: "Exo", sans-serif;
   color: #fefefe;
   display: flex;
   flex-direction: column;
@@ -192,6 +189,9 @@
   overflow-x: none;
   width: 100%;
   margin: 0px;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
 .headerL {
@@ -212,13 +212,11 @@
   background-color: rgb(83, 113, 182);
   width: 100%;
   margin: 0px;
-  height: 100%;
 }
 
 .rpeñon {
   color: #050505;
   text-align: left;
-  font-family: "Exo", sans-serif;
   font-size: 35px;
   display: flex;
   flex-wrap: wrap;
@@ -230,7 +228,6 @@
 .historiap {
   color: #050505;
   text-align: center;
-  font-family: "Exo", sans-serif;
   font-size: 20px;
 }
 
@@ -264,7 +261,6 @@
 .troya {
   text-align: center;
   color: #050505;
-  font-family: "Exo", sans-serif;
   font-size: 35px;
   width: 100%;
 }
@@ -272,7 +268,6 @@
 .historiat {
   text-align: center;
   color: #050505;
-  font-family: "Exo", sans-serif;
   font-size: 20px;
 }
 
@@ -303,7 +298,6 @@
 .quebrada {
   text-align: center;
   color: #050505;
-  font-family: "Exo", sans-serif;
   font-size: 35px;
   width: 100%;
 }
@@ -311,7 +305,6 @@
 .historiaY {
   text-align: center;
   color: #050505;
-  font-family: "Exo", sans-serif;
   font-size: 20px;
 }
 
@@ -342,6 +335,7 @@
 .footerlugares {
   padding: 0px;
   width: 100%;
+  margin-top: auto;
 }
 .footerlugares ul {
   color: black;
@@ -349,7 +343,6 @@
   font-size: 15px;
   text-align: right;
   background-color: #144668;
-  font-family: "Exo", sans-serif;
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -368,17 +361,15 @@
 /* seccion contactos */
 .bodyc {
   width: 100%;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
 .headerC {
   width: 100%;
   padding: 0px;
   margin: 0px;
-}
-
-.mainC {
-  height: 100vh;
-  width: 100%;
 }
 
 .footerC {
@@ -388,11 +379,12 @@
 }
 
 .mainC {
+  height: 100vh;
+  width: 100%;
   margin: 0px;
 }
-
 .mainC section {
-  background-color: #144668;
+  background-color: rgb(83, 113, 182);
   height: 100vh;
   width: 100%;
   padding: 0px;
@@ -401,6 +393,7 @@
 .contactfooter {
   padding: 0px;
   width: 100%;
+  margin-top: auto;
 }
 .contactfooter ul {
   color: black;
@@ -408,7 +401,6 @@
   font-size: 15px;
   text-align: right;
   background-color: #144668;
-  font-family: "Exo", sans-serif;
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -452,12 +444,18 @@
 }
 
 /* galeria */
+.bodyG {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
 .navbar > .container-fluid {
   padding: 0px;
 }
 
 .maing {
-  background-color: #144668;
+  background-color: rgb(83, 113, 182);
 }
 
 .tituloG {
@@ -518,6 +516,7 @@
   width: 100%;
   margin: 0px;
   padding: 0px;
+  margin-top: auto;
 }
 
 /* servicios */
@@ -531,17 +530,19 @@
   background-color: rgb(83, 113, 182);
   padding: 0px;
   margin: 0px;
-  width: 100%;
 }
 
 .card {
   padding: 0px;
 }
 
-.conteinerr {
+.bodyS {
   padding: 0px;
   background-color: #144668;
   width: 100%;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
 .container-fluid {
@@ -553,7 +554,6 @@
   color: #050505;
   background-color: rgb(83, 113, 182);
   text-align: center;
-  font-family: "Exo", sans-serif;
   font-size: 35px;
   margin-bottom: 0px;
   width: 100%;
@@ -563,7 +563,6 @@
   color: #050505;
   background-color: rgb(83, 113, 182);
   text-align: center;
-  font-family: "Exo", sans-serif;
   font-size: 30;
   width: 100%;
 }
@@ -574,14 +573,12 @@
 .pasteles {
   color: #050505;
   text-align: center;
-  font-family: "Exo", sans-serif;
   font-size: 25px;
 }
 
 .historiaPast {
   text-align: center;
   color: #050505;
-  font-family: "Exo", sans-serif;
   font-size: 20px;
 }
 
@@ -641,6 +638,7 @@
 
 .footerS {
   width: 100%;
+  margin: 0px;
 }
 .footerS nav {
   padding: 0px;
@@ -651,7 +649,6 @@
   font-size: 15px;
   text-align: center;
   background-color: #144668;
-  font-family: "Exo", sans-serif;
   text-decoration: none;
   display: flex;
   flex-direction: row;
