@@ -1,7 +1,10 @@
 
 $fuente: 'Exo', sans-serif;
 
-
+@mixin medidas($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}
 
 
 .html{
@@ -137,11 +140,11 @@ $fuente: 'Exo', sans-serif;
     justify-content: center;
     grid-area: imagen1;
     img{
-    width: 538px;
-    height: 315px;
+    @include medidas(315px,538px);
     align-content: space-between;
     }
 }
+
 
 
 .arrieros{
@@ -266,8 +269,7 @@ $fuente: 'Exo', sans-serif;
         justify-content: center;
         align-items: center;
         margin-bottom: 15px;
-        width: 100%;
-        height: 200px;
+        @include medidas(200px,100% );
         img:hover{
         border:5px solid #144668;
         }
