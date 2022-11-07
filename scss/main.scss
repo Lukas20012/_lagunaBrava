@@ -44,9 +44,8 @@
 }
 .menuPrincipal{
     padding: 0px;
-    width: 100%;
-
-ul{
+    margin: 0px;
+    ul{
     color: black; 
     list-style-type: none;
     font-size: 15px;
@@ -60,8 +59,8 @@ ul{
     align-items: center;
     margin: 0px;
     padding: 0px;
-
-        .li{
+    width: 100%;
+    li{
             text-decoration: none;
             margin: 5px 5px;
         }
@@ -93,8 +92,8 @@ ul{
     height: 50%;
     position: relative;
     font-size: 100%;
-}
-}
+    }
+    }   
 .subtitulo{
     color: #fefefe  ;
     display: flex;
@@ -181,8 +180,8 @@ ul{
     color: #fefefe;
     }
         } 
-        }
             }
+                }
 .footer{
     font-family: 'Exo', sans-serif;
     color: #fefefe;
@@ -194,15 +193,30 @@ ul{
 }
 
 /* seccion lugares */
+
 .bodyL{
-    overflow: none;
+    overflow-x: none;
     width: 100%;
-    
+    margin: 0px;
+}
+.headerL{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.footerL{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
 }
 
 .mainL{
     background-color: rgb(83, 113, 182);
     width: 100%;
+    margin: 0px;
+    height: 100%;
 }
 .rpeñon{
     color: #050505  ;
@@ -328,9 +342,7 @@ ul{
 .footerlugares{
     padding: 0px;
     width: 100%;
-}
-
-.footerlugares ul{
+    ul{
     color: black; 
     list-style-type: none;
     font-size: 15px;
@@ -345,26 +357,47 @@ ul{
     align-items: center;
     height: 40px;
     margin-bottom: 0px;
-}
-
-.footerlugares li a{
+    li{
+        a{
     text-decoration: none;
     color: #fefefe;
     padding: 5px;
-}
+    }
+        }  
+            }
+                }
 /* seccion contactos */
+.bodyc{
+    width: 100%; 
+}
+.headerC{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
 .mainC{
     height: 100vh;
+    width: 100%;
 }
+.footerC{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 
+}
+.mainC{
+    margin: 0px;
+}
 .mainC section{
     background-color: #144668;
     height: 100vh;
+    width: 100%;
+    padding: 0px;
 }
 .contactfooter{
     padding: 0px;
-}
-.contactfooter ul{
+    width: 100%;
+    ul{
     color: black; 
     list-style-type: none;
     font-size: 15px;
@@ -379,15 +412,18 @@ ul{
     height: 40px;
     margin: 0px;
     padding: 0px;
-}
-
-.contactfooter li a{ 
+    li{
+        a{ 
     text-decoration: none;
     color: #fefefe;
     padding: 5px;
-}
+    }
+        }
+            }
+                }
 .form{
     height: 100%;
+    
 }
 .contactos{
     display: flex;
@@ -398,6 +434,7 @@ ul{
 
 .formcontac{
     background-color: #144668;
+    
 }
 .mb-2{ color: #fefefe;}
 
@@ -414,6 +451,7 @@ ul{
 }
 .maing{
     background-color: #144668;
+
 }
 .tituloG{
     display: flex;
@@ -421,24 +459,37 @@ ul{
     justify-content: center;
     align-items: center;
 }
-.galeria .col-3{
+.fotosG{
+    width: 100%;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-right: 0px;
+}
+.galeria{
+    width: 100%;
+    .col-3{
     margin: 0 !important;
     padding: 5px;
-}
-.galeria img{
+    padding-right: 0px;
+    }
+    img{
     width: 100%;
     height: 250px;
-}
-.galeria img:hover{
+    &:hover{
     border: 5px solid #144668;
-}
-
-.galeria iframe{
+    }
+        }
+        iframe{
     width: 100%;
     height: 250px;
-}
-.galeria iframe:hover{
+    &:hover{
     border: 5px solid #144668;
+        }
+            }
 }
 
 .videos{
@@ -453,17 +504,23 @@ ul{
 .galeria{
     font-family: 'Exo', sans-serif;
 }
-
+.footerG{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
 
 /* servicios */
 .headerS{
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 .mainS{
     background-color:rgb(83, 113, 182);
     padding: 0px;
     margin: 0px;
+    width: 100%;
 
 }
 .card{
@@ -473,9 +530,11 @@ ul{
 .conteinerr{
     padding: 0px;
     background-color:#144668;
+    width: 100%;
 }
 .container-fluid{
     padding: 0px;
+    width: 100%;
 }
 
 .servicios{
@@ -485,6 +544,7 @@ ul{
     font-family: 'Exo', sans-serif;
     font-size: 35px;
     margin-bottom: 0px;
+    width: 100%;
 }
 
 .comidas {
@@ -493,10 +553,11 @@ ul{
     text-align: center;
     font-family: 'Exo', sans-serif;
     font-size: 30;
-}
-.comidas h1{
+    width: 100%;
+    h1{
     margin-bottom: 0px;
-}
+    }
+        }
 .pasteles{
     color: #050505;
     text-align: center;
@@ -557,22 +618,24 @@ ul{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-}
-.hospedaje img{
+    width: 100%;
+    img{
     height: 300px;
     margin: 2px;
-}
+    }
+        }
 .carrusel{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
-.footerS nav{
+.footerS{
+    width: 100%;
+    nav{
     padding: 0px;
-}
-
-.footerS ul{
+    ul{
     color: black; 
     list-style-type: none;
     font-size: 15px;
@@ -586,9 +649,13 @@ ul{
     align-items: center;
     height: 40px;
     margin-bottom: 0px;
-}
-.footerS li a{
+    li{
+        a{
     text-decoration: none;
     color: #fefefe;
     padding: 5px;
-}
+    }
+        }
+            }
+                }              
+                    }
