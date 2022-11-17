@@ -216,7 +216,7 @@
 
 .rpeñon {
   color: #050505;
-  text-align: left;
+  text-align: center;
   font-size: 35px;
   display: flex;
   flex-wrap: wrap;
@@ -247,7 +247,6 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
-  height: 200px;
   width: 100%;
 }
 .imagenesP img:hover {
@@ -255,7 +254,7 @@
 }
 
 .fotopenon {
-  height: 210px;
+  height: 280px;
 }
 
 .troya {
@@ -385,7 +384,6 @@
 }
 .mainC section {
   background-color: rgb(83, 113, 182);
-  height: 100vh;
   width: 100%;
   padding: 0px;
 }
@@ -480,7 +478,7 @@
 .galeria {
   width: 100%;
 }
-.galeria .col-3 {
+.galeria .col-md-4 {
   margin: 0 !important;
   padding: 5px;
   padding-right: 0px;
@@ -534,6 +532,12 @@
 
 .card {
   padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.card-group > .card {
+  margin: 0px;
 }
 
 .bodyS {
@@ -586,6 +590,7 @@
   background-color: #889BC6;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .empanadas {

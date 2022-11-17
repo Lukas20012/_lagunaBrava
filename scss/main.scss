@@ -234,7 +234,7 @@ $fuente: 'Exo', sans-serif;
 }
 .rpeñon{
     color: #050505  ;
-    text-align: left;
+    text-align: center;
     $fuente: 'Exo', sans-serif;
     font-size: 35px;
     display: flex;
@@ -269,13 +269,13 @@ $fuente: 'Exo', sans-serif;
         justify-content: center;
         align-items: center;
         margin-bottom: 15px;
-        @include medidas(200px,100% );
+        width: 100%;
         img:hover{
         border:5px solid #144668;
         }
     }
     .fotopenon{
-        height: 210px;
+        height: 280px;
     }
     
     .troya{
@@ -405,7 +405,6 @@ $fuente: 'Exo', sans-serif;
     margin: 0px;
     section{
     background-color: rgb(83, 113, 182);
-    height: 100vh;
     width: 100%;
     padding: 0px;
 }
@@ -494,7 +493,7 @@ $fuente: 'Exo', sans-serif;
 }
 .galeria{
     width: 100%;
-    .col-3{
+    .col-md-4{
     margin: 0 !important;
     padding: 5px;
     padding-right: 0px;
@@ -547,7 +546,13 @@ $fuente: 'Exo', sans-serif;
 }
 .card{
     padding: 0px;
+    margin: 0px;
+    width: 100%;
 }
+.card-group>.card{
+    margin: 0px;
+}
+
 
 .bodyS{
     padding: 0px;
@@ -600,6 +605,7 @@ $fuente: 'Exo', sans-serif;
     background-color: #889BC6   ;
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 
