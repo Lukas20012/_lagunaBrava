@@ -108,7 +108,7 @@
 .parrafo1 {
   color: #050505;
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 20px;
   grid-area: historia;
   text-align: center;
   display: flex;
@@ -249,12 +249,12 @@
   margin-bottom: 15px;
   width: 100%;
 }
-.imagenesP img:hover {
-  border: 5px solid #144668;
+.imagenesP img {
+  padding: 10px;
 }
 
 .fotopenon {
-  height: 280px;
+  height: 300px;
 }
 
 .troya {
@@ -277,9 +277,6 @@
   text-align: center;
   justify-content: center;
   width: 100%;
-}
-.cuesta img:hover {
-  border: solid 5px #144668;
 }
 
 .imgT {
@@ -388,6 +385,24 @@
   padding: 0px;
 }
 
+.parrafo1_1 {
+  text-align: justify;
+  font-size: 1.1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #fefefe;
+}
+
+.parrafo1_2 {
+  text-align: justify;
+  font-size: 1.1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #050505;
+}
+
 .contactfooter {
   padding: 0px;
   width: 100%;
@@ -430,15 +445,15 @@
 }
 
 .mb-2 {
-  color: #fefefe;
+  color: #050505;
 }
 
 .mb-2 button {
-  color: #fefefe;
+  color: #050505;
 }
 
 .mb-3 h4 {
-  color: #fefefe;
+  color: #050505;
 }
 
 /* galeria */
@@ -465,6 +480,7 @@
 
 .fotosG {
   width: 100%;
+  margin: 0px;
 }
 
 .video {
@@ -487,15 +503,9 @@
   width: 100%;
   height: 250px;
 }
-.galeria img:hover {
-  border: 5px solid #144668;
-}
 .galeria iframe {
   width: 100%;
   height: 250px;
-}
-.galeria iframe:hover {
-  border: 5px solid #144668;
 }
 
 .videos {
@@ -593,6 +603,10 @@
   align-items: center;
 }
 
+.span1 {
+  color: white;
+}
+
 .empanadas {
   background-color: #889BC6;
   display: flex;
@@ -666,6 +680,36 @@
   text-decoration: none;
   color: #fefefe;
   padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor_inicio {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.01fr 1fr 0.01fr;
+    grid-template-areas: "header header" "main main" "footer footer";
+    width: 100%;
+  }
+  .main_contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 1fr 0.5fr 1fr;
+    grid-template-areas: "subtitulo" "historia" "imagen1" "arrieros" "imagen2";
+    width: 100%;
+  }
+  .fotopenon {
+    height: 175px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contenedor_inicio {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.01fr 1fr 0.01fr;
+    grid-template-areas: "header header" "main main" "footer footer";
+  }
+  .main_contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 1fr 0.5fr 1fr;
+    grid-template-areas: "subtitulo" "historia" "imagen1" "arrieros" "imagen2";
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
