@@ -743,6 +743,7 @@ $fuente: 'Exo', sans-serif;
         "main main"
         "footer footer"
         ;
+        width: 100%;
         
     
     }
@@ -755,7 +756,10 @@ $fuente: 'Exo', sans-serif;
         "imagen1"
         "arrieros"
         "imagen2";
-        
+        width: 100%;
+    }
+    .menuPrincipal{
+        width: 100%;
     }
 
 }
