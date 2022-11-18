@@ -21,9 +21,9 @@ $fuente: 'Exo', sans-serif;
     grid-template-columns: 1fr  ;
     grid-template-rows: 0.01fr  2fr;
     grid-template-areas: 
-    "header header"
-    "main main"
-    "footer footer"
+    "header"
+    "main"
+    "footer"
     ;
     width: 100%;
 
@@ -140,7 +140,7 @@ $fuente: 'Exo', sans-serif;
     justify-content: center;
     grid-area: imagen1;
     img{
-    @include medidas(315px,538px);
+    height: 315px;
     align-content: space-between;
     }
 }
@@ -164,10 +164,11 @@ $fuente: 'Exo', sans-serif;
 }
 
 .iframe2{
-    
     display: flex;
     justify-content: center;
     grid-area: imagen2;
+    width: 100%;
+
 }
 
 .pie{
@@ -538,6 +539,10 @@ $fuente: 'Exo', sans-serif;
 
 .galeria{
     font-family: 'Exo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .footerG{
     width: 100%;
@@ -712,9 +717,9 @@ $fuente: 'Exo', sans-serif;
         grid-template-columns: 1fr  ;
         grid-template-rows: 0.01fr 1fr 0.01fr;
         grid-template-areas: 
-        "header header"
-        "main main"
-        "footer footer"
+        "header"
+        "main"
+        "footer"
         ;
         width: 100%;
     

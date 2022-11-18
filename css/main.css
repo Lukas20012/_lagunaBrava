@@ -13,7 +13,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.01fr 2fr;
-  grid-template-areas: "header header" "main main" "footer footer";
+  grid-template-areas: "header" "main" "footer";
   width: 100%;
 }
 
@@ -128,7 +128,6 @@
 }
 .imagen_p1 img {
   height: 315px;
-  width: 538px;
   align-content: space-between;
 }
 
@@ -150,6 +149,7 @@
   display: flex;
   justify-content: center;
   grid-area: imagen2;
+  width: 100%;
 }
 
 .pie {
@@ -518,6 +518,10 @@
 
 .galeria {
   font-family: "Exo", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footerG {
@@ -686,7 +690,7 @@
   .contenedor_inicio {
     grid-template-columns: 1fr;
     grid-template-rows: 0.01fr 1fr 0.01fr;
-    grid-template-areas: "header header" "main main" "footer footer";
+    grid-template-areas: "header" "main" "footer";
     width: 100%;
   }
   .main_contenedor {
